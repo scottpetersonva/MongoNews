@@ -31,7 +31,7 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/MongoNews";
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI);
 
-mongoose.connect("mongodb://heroku_z75b6snq:o6pj1bu81fnte7nfrjjehkqsoc@ds147890.mlab.com:47890/heroku_z75b6snq");
+// mongoose.connect("mongodb://heroku_kfl21ckl:2og7t3cdfql2aq21co993vgtns@ds153890.mlab.com:53890/heroku_kfl21ckl");
 
 // Routes
 
