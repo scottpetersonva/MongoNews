@@ -26,12 +26,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Use express.static to serve the public folder as a static directory
 app.use(express.static("public"));
 
-// var MONGODB_URI = process.env.u_z75b6snq || "mongodb://localhost/MongoNews";
+var MONGODB_URI = process.env.u_z75b6snq || "mongodb://localhost/MongoNews";
 
-// mongoose.Promise = Promise;
-// mongoose.connect(MONGODB_URI);
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI);
 
-mongoose.connect("mongodb://heroku_z75b6snq:o6pj1bu81fnte7nfrjjehkqsoc@ds147890.mlab.com:47890/heroku_z75b6snq");
+// mongoose.connect("mongodb://localhost/MongoNews");
 
 // Routes
 
