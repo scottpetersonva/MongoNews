@@ -5,7 +5,7 @@ This app allows users to find the latest "news" stories from The Onion.  The app
 ## Link to App
 
 <!-- post link here -->
-[View Project](https://scottpetersonva.github.io/MongoNews)
+[View Project](https://mongo-onion-news.herokuapp.com/)
 
 ## Technologies Used
 
